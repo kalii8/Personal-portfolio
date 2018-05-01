@@ -1,8 +1,8 @@
 /*
-    background: #E5DDF4 (##E1D6F7 opacity 70% )
+   
     Selected menu: #D5D6FF
     Selected Menu letters: #232323
-    Menu: #e1d6f7
+    
     Dark violet: #460e56
     After pic rectangle: ##1A191C
 
@@ -30,7 +30,7 @@ body {
   width: 90px; }
 
 nav {
-  background-color: #e1d6f7;
+  background-color: #E1D6F7;
   color: #460e56;
   font-size: 0;
   display: inline-block;
@@ -114,7 +114,7 @@ nav li:first-child {
   margin-bottom: 1rem; }
 
 .body {
-  background-color: #e1d6f7;
+  background-color: #E1D6F7;
   height: 7rem; }
 
 .title {
@@ -140,53 +140,34 @@ nav li:first-child {
   color: white;
   text-align: center; }
 
-.HTMLbar {
+.bar {
   background-color: #D5D6FF;
-  width: 80%;
   text-align: right;
   height: 100%; }
+
+.HTMLbar {
+  width: 80%; }
 
 .cssbar {
-  background-color: #D5D6FF;
-  width: 75%;
-  text-align: right;
-  height: 100%; }
+  width: 75%; }
 
 .jsbar {
-  background-color: #D5D6FF;
-  width: 79%;
-  text-align: right;
-  height: 100%; }
+  width: 79%; }
 
 .reactbar {
-  background-color: #D5D6FF;
-  width: 90%;
-  text-align: right;
-  height: 100%; }
+  width: 90%; }
 
 .jqbar {
-  background-color: #D5D6FF;
-  width: 70%;
-  text-align: right;
-  height: 100%; }
+  width: 70%; }
 
 .phpbar {
-  background-color: #D5D6FF;
-  width: 85%;
-  text-align: right;
-  height: 100%; }
+  width: 85%; }
 
 .larbar {
-  background-color: #D5D6FF;
-  width: 90%;
-  text-align: right;
-  height: 100%; }
+  width: 90%; }
 
 .uxbar {
-  background-color: #D5D6FF;
-  width: 95%;
-  text-align: right;
-  height: 100%; }
+  width: 95%; }
 
 .progress {
   background-color: white;

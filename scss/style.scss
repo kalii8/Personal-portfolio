@@ -1,23 +1,27 @@
 /*
-    background: #E5DDF4 (##E1D6F7 opacity 70% )
+   
     Selected menu: #D5D6FF
     Selected Menu letters: #232323
-    Menu: #e1d6f7
+    
     Dark violet: #460e56
     After pic rectangle: ##1A191C
 
 */
+
+// colors
+@import "variables";
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: #E5DDF4;
+    background-color: $backgroundcolor;
 }
 
 .container {
     width: 960px;  
-    background-color: #E5DDF4; 
+    background-color: $backgroundcolor; 
     margin-left: auto;
     margin-right: auto;
    }
@@ -36,8 +40,8 @@ body {
 }
 
 nav {
-    background-color: #e1d6f7;
-    color: #460e56;
+    background-color: $backgroundcolor-darker;
+    color: $dark-violet;
     font-size: 0;
     display: inline-block;
     width: calc(100% - 200px);
@@ -58,7 +62,7 @@ nav li {
     list-style-type: none;
     text-align: center;
     width:20%;
-    border-left: 1px solid #E5DDF4;
+    border-left: 1px solid $backgroundcolor;
 }
 
 nav li:first-child {
@@ -114,8 +118,8 @@ nav li:first-child {
 #promo {
     font-size: 0;
     padding: 4rem 1rem;
-    color: #460e56;
-    background-color: #E5DDF4;
+    color: $dark-violet;
+    background-color: $backgroundcolor;
     font-family: 'Assistant', sans-serif;
 }
 
@@ -135,7 +139,7 @@ nav li:first-child {
 }
 
 .body {
-    background-color: #e1d6f7;
+    background-color: $backgroundcolor-darker;
     height: 7rem;
 }
 
@@ -149,7 +153,7 @@ nav li:first-child {
 
 #skills {
     padding: 2rem 4rem;
-    background-color: #460e56;
+    background-color: $dark-violet;
     font-family: 'Assistant', sans-serif;
 
 }
@@ -167,60 +171,42 @@ nav li:first-child {
     text-align: center;
 }
 
-.HTMLbar {
-    background-color: #D5D6FF;
-    width: 80%;
+.bar {
+    background-color: $light-violet;
     text-align: right;
     height: 100%;
+}
+
+.HTMLbar {
+    width: 80%;
 }
 
 .cssbar {
-    background-color: #D5D6FF;
     width: 75%;
-    text-align: right;
-    height: 100%;
 }
 
 .jsbar {
-    background-color: #D5D6FF;
     width: 79%;
-    text-align: right;
-    height: 100%;
 }
 
 .reactbar {
-    background-color: #D5D6FF;
     width: 90%;
-    text-align: right;
-    height: 100%;
 }
 
 .jqbar {
-    background-color: #D5D6FF;
     width: 70%;
-    text-align: right;
-    height: 100%;
 }
 
 .phpbar {
-    background-color: #D5D6FF;
     width: 85%;
-    text-align: right;
-    height: 100%;
 }
 
 .larbar {
-    background-color: #D5D6FF;
     width: 90%;
-    text-align: right;
-    height: 100%;
 }
 
 .uxbar {
-    background-color: #D5D6FF;
     width: 95%;
-    text-align: right;
-    height: 100%;
 }
 
 .progress{
@@ -228,7 +214,7 @@ nav li:first-child {
     flex-grow: 1;
     text-align: right;
     border-radius: 25px;
-    color: #460e56;
+    color: $dark-violet;
 }
 
 .skillbarpage {
@@ -262,7 +248,7 @@ nav li:first-child {
 
 .project-description {
     height: 60%;
-    background-color: #E1D6F7;
+    background-color: $backgroundcolor-darker;
     padding: 1rem;
     text-align: justify;
     font-family: 'Assistant', sans-serif;
